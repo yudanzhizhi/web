@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Horse Race</title>
+        <link rel="shortcut icon" href="race.svg" type="image/svg">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="race.css">
+    </head>
+
+
+    <body>
+        <div id="container">
+
+            <div id="sidebar">
+                    <div class="space"></div>
+                    
+                    <div id="top_of_sidebar">
+                        <img src="rank.svg" alt="error!">
+                        <h2>RANK</h2>
+                    </div>
+
+                    <div class="space"></div>
+
+                    <div id="status">
+                        <div class="vertical_space"></div>
+                        <div id="No"></div>
+                        <div class="vertical_space"></div>
+                        <div id="which"></div>
+                    </div>
+            </div>
+        
+            <div id="main">
+
+                <h1>race</h1>
+
+                <div id="input">
+                    <p>Please enter a integer(1~6):</p>
+                    <input type="number" id="horses">
+                    <button id="OK" onclick="init()">OK</button>
+                    <button id="start_" onclick="start()">Start</button>
+                    <button id="reset" onclick="again()">Restart</button>
+                </div>
+                
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+                <div class="space"></div>
+
+                <div id="track">
+                    <div id="beginning"></div>
+                    <div id="run"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="race.js"></script>
+
+    </body>
+
+</html>
